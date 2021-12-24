@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B 'DskipTests clean packge'
+                sh 'mvn -B DskipTests clean packge'
             }
         }
     }
